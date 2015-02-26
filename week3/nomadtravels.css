@@ -1,4 +1,6 @@
-html{text-align: center;
+html{
+	font-family:'Indie Flower', cursive;
+	text-align: center;
 	background: url(walkway.jpg);
 	background-position: center;
 	background-size: 1800px;
