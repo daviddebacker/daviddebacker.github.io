@@ -1,0 +1,156 @@
+html{ background: url(goldern.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: 0-auto;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 'Roboto', sans-serif;
+}
+
+ 
+
+
+   
+ul{text-align: right;
+color: #527F54;
+font-size: 24px;
+position: inherit;
+
+}
+li{display: inline;}
+
+h1{color:#527F54;
+  text-align: right;
+  padding-top: 1px;
+  padding-right:10px;
+  text-indent: 18px;
+  margin:0px;
+  font-size: 72px;
+ font-family: 'Roboto', sans-serif;;
+}
+
+h2{text-align: center;
+  color: #565ACC;
+  font-weight: 600;
+  font-size: 1.4em;
+ padding: 0.9px;
+
+  }
+
+  #img1{content: center;
+    padding-left: 630px;
+    padding-top: 25px;
+    text-align: 
+
+
+    }
+
+p{
+  padding-top: 100px;
+  padding-left:300px;
+  padding-right: 300px;
+  padding-bottom:15px;
+  font-size: 24px;
+  color: #565ACC;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  border: 3px}  
+
+  #img2{content: center;
+    padding-left: 630px;
+    padding-top: 25px;}  
+
+  #todo{display: inline;
+         padding-left:600px;
+         padding-top: 01px;
+         padding-bottom: 5px;
+         border: 1px;
+         color:#565ACC;
+         font-size: 24px;
+         text-align: center;
+       }  
+
+h3{display: block;
+         padding-left:685px;
+         padding-top: 15px;
+         padding-bottom: 0px;
+         color:#565ACC;
+         font-size: 2.5em;
+        
+       }
+
+h4{block;
+         padding-left:650px;
+         padding-top: 15px;
+         padding-bottom: 0px;
+         color:#565ACC;
+         font-size: 2.5em;} 
+
+h5{color:#527F54;
+  text-align: right;
+  padding-top: 1px;
+  padding-right:10px;
+  text-indent: 18px;
+  margin:0px;
+  font-size: 72px;
+ font-family: 'Roboto', sans-serif;} 
+
+  #img3{content: center;
+        padding-left: 585px;
+        padding-top: 25px;
+        padding-right: 650px;}   
+
+ #stayclear{display: inline;
+         padding-left:550px;
+         padding-top: 01px;
+         padding-bottom: 5px;
+         border: 1px;
+         color:#565ACC;
+         font-size: 24px;
+         text-align: center;
+               
+
+
+
+
+
+footer{  block;
+         padding-left:650px;
+         padding-top: 150px;
+         padding-bottom: 150px;
+         padding-right: 650px;
+         color: grey;
+         font-size: 1.5em;
+         float: center;
+       } 
+
+h3,h4{float:left;
+
+}
+
+@media screen only and (min-width: 320px) {
+body{
+  font-size: 10px;
+}
+.em-unit{
+  background: url(goldern.jpeg);
+  width:6em;
+  height:3em;
+
+}
+
+}
+
+@media screen only and (min-width: 768px){
+  body{
+    font size:14px;
+
+  }
+  .fixed-unit{
+    background: url(goldern.jpeg);
+    width:60px;
+    height:30px;
+  }
+
+
+}
