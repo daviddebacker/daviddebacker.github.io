@@ -1,7 +1,11 @@
 html{
 	font-family:'Indie Flower', cursive;
-	text-align: center;
-	background: url(walkway.jpg);
+	
+	background: url(aframehome.jpeg)no-repeat center center fixed;
+	-webkit-background-size: 0-auto;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	background-position: center;
 	background-size: 1800px;
 	margin-right: 100px;
@@ -10,44 +14,70 @@ html{
 	border: black;
 
 }
-h1{color: #aabbcc;
-	font-weight: 800;
-	text-transform: uppercase;
-	font-size: 32px;
+
+nav{display:block;
+    padding: 10px;
+    float:none;
 }
-#slogan{
-	font-family:times;
-	color:rgb(250,146,125);
-	font-size: 20px;
+
+h1{color: #aabbcc;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 52px;
+	text-align: right;
+	text-decoration: underline;
+	margin-top: 50px;
+	padding: 5px;
+	
+}
+#intro{ 
+	font-family:futura,san-serif;
+	color:#aabbcc;
+	font-size: 22px;
 	font-weight: 555;
 	font-style: bold;
-	background: rgba(00,00,00,0.5)
+	background: rgba(00,00,00,0.5);
+	text-align:left;
+	margin-top: 10px;
+	
+	clear:none;
+
 }
 p{
-	font-family:times;
-	color:rgb(230,146,125);
+	font-family:futura,san-serif;
 	font-size: 20px;
-	font-weight: 555;
+	font-weight: 400;
 	font-style: bold;
-	background: rgba(00,00,00,0.55);
+	background: rgba(00,00,00,0.45);
+	display:block;
+	width: 460px;
+	height: 80px;
+	text-align: left;
+	vertical-align: top;
+	padding:5px;
+    margin-left: 822px;
+    margin-top: 30px;
+
 }
 h2{text-decoration: underline;
 	color: #aabbcc;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 32px;
-
-
-
 }
-ul{color:rgb(230,146,125);
-	background: rgba(00,00,00,0.55);
-	font-weight: 800;
-	text-transform: uppercase;
-	font-size: 14px;
 
 
+
+
+#mexico{text-align: left;
+       color:white;
+       margin-left: 10px;
+       background: rgba(00,00,00,0.55);
+       height:1050px; 
+       display: inline-block;
 }
+
+
 h3{text-decoration: underline;
 	color: #ffffff;
 	font-weight: 900;
@@ -60,7 +90,77 @@ a{color: black;
 	color: white;
 }
 h4{position: bottom;
+	color: white;
+	font-family:futura,san-serif;
+	text-align: right;
 }
+
+h5{color: #aabbcc;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 52px;
+	text-align: right;
+	text-decoration: underline;
+	margin-top: 50px;
+	padding: 5px;
+
+}
+#block1{ font-family:futura,san-serif;
+    color:white;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: bold;
+	background: rgba(00,00,00,0.45);
+	display:block;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	vertical-align: top;
+	padding:5px;
+    margin-left: 250px;
+    margin-top: 0px;
+ }
+
+ #block2{font-family:futura,san-serif;
+    color:white;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: bold;
+	background: rgba(00,00,00,0.45);
+	display:block;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	vertical-align: top;
+	padding:5px;
+    margin-right: 250px;
+    margin-top: 0px;
+    float:right;
+
+ }
+
+#block3{font-family:futura,san-serif;
+    color:white;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: bold;
+	background: rgba(00,00,00,0.45);
+	display:block;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	vertical-align: top;
+	padding:5px;
+    margin-right: 700px;
+    margin-top: 0px;
+    float:right;
+
+}
+
+#
+
+
+
 
 
 
